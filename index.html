@@ -1,3 +1,116 @@
-<html>
-    <h1>Hello World!</h1>
+<html> 
+<!-- styles characteristics -->
+    <head>
+        <style>
+        a:link {
+          color: green;
+          background-color: transparent;
+          text-decoration: none;
+        }
+        a:visited {
+          color: pink;
+          background-color: transparent;
+          text-decoration: none;
+        }
+        a:hover {
+          color: red;
+          background-color: transparent;
+          text-decoration: underline;
+        }
+        a:active {
+          color: yellow;
+          background-color: transparent;
+          text-decoration: underline;
+        }
+        img {
+ 		 display: block;
+ 		 margin-left: auto;
+  		 margin-right: auto;
+		}
+        video {
+  		display: block;
+ 		margin-left: auto;
+  		margin-right: auto;
+		}
+        </style>
+        </head>
+<!-- body starts here -->
+<body>
+    <h1 style="font-size:50px">How to Create a Personal Web Page Using GitHub</h1>
+    <h2 style="font-size:20px">You'll Need to:</h2>
+    <p style="font-family:system-ui;font-size:20px">
+        <ol type="I">
+            <li>Create a GitHub account if you don't have one already.</li>
+            <li>	Download and install Visual Studio Code (VSCode).</li>
+            <li>	Download and install Git Bash</li> 
+          </ol>
+     </p>
+    <p>
+          It would also be beneficial to have a basic understanding of how the Git workflow operates. In the upcoming image, you'll find a graphical illustration that will provide a visual representation of this concept. 
+    </p>
+          
+    <img src="git_workflow.jpg" width="220" height="277" alt="GIT Workflow" >
+    <p><cite>GIT Workflow</cite> by tex.stackexchange.com</p>
+    <p>
+        For a more comprehensive grasp of this workflow, I recommend proceeding to the <a href="https://youtu.be/3a2x1iJFJWc" target="_blank"> next video</a>. Within the initial three minutes, you'll gain a clearer insight into the sequence of steps, serving as a valuable precursor before delving into the process of creating a repository on GitHub. Video courtesy of Georga Tech.
+    </p>
+    <p>To create your own personal web page on GitHub, follow these steps:</p>
+        
+    <h2>On GitHub:</h2>
+    <ol>
+        <li>Log in to your GitHub account and create a new repository.Give it a name.</li>
+    </ol>
+        
+   <h2>In Git Bash:</h2>
+    <ol>
+    <li>In Git Bash, open the command line and create a folder for your repository using the command mkdir "repository_name". Remember to note down the path or location of this folder; you'll need it later. </li>
+    <li>Inside the folder, create an HTML file with the command touch "file_name.html"</li> 
+    </ol>
+        
+    <h2>In VSCode:</h2>
+    <ol>
+    <li>Open VSCode and navigate to the folder of the repository you created in the previous steps.</li>
+    <li> In the HTML file, write the HTML code to structure your first web page and its content.</li>
+    <li> Save your work by clicking "Save" or using the shortcut Ctrl+S.</li>
+    </ol>
+    
+    <h2>Back in Git Bash:</h2>
+    <ol>
+    <li>Return to your Git Bash command line, ensuring that you are inside the folder of your repository by using the pwd command. Then, proceed with the following commands:</li> 
+    <ol type="a">
+    <li> git init</li> 
+    <li> git add "file_name.html"</li> 
+    <li> git commit -m "Description of your first file."</li>
+    </ol>
+    <li>Push your repository to GitHub with the following commands:</li>
+    <ol type="a">
+    <li>git branch -M main </li> 
+    <li>git remote add origin (add the https of your repository on GitHub) </li> 
+    <li>git push -u origin main </li>
+    </ol>
+    </ol>
+
+
+        <h2>On GitHub: </h2> 
+        <ol>
+
+        <li> Go to your repository's settings on GitHub and ensure that the branch is set to "main." Click save.</li>
+        <li> Wait for 3-5 minutes for GitHub to deploy the information.</li>
+        <li> Then click on the "Visit Page" link in the settings of your repository, and there you have it!</li>
+    </ol>
+     
+
+        <h2>In GitHub:</h2> 
+        <ol>
+        <li>Create a new GitHub repository and upload your index.html file. </li>
+        <li> Wait a few minutes for GitHub to deploy the information.</li>
+        <li> In GitHub settings, ensure the default branch is set to "main" and save the changes.</li>
+        <li> Click "Visit Page" to access your hosted GitHub Pages website.</li>
+    </ol>
+    <p>Now, your personal web page is live on GitHub. Enjoy!</p>
+    <p>If you're finding it challenging to follow the steps outlined above, I encourage you to take a look at my video tutorial. </p>
+    <p><embed type="video/webm" src="movie.mp4" width="400" height="300">
+    </p>
+
+</body>
 </html>
