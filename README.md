@@ -3,7 +3,7 @@
 
 This page offers an educational tutorial on creating your first GitHub repository, simplifying the process of launching your coding projects and fostering collaboration with peers. Inside, you'll find a step-by-step video tutorial created by us. Please note that this tutorial is designed for Microsoft Windows users.
 
-# Installation:
+## Installation:
 
 As explained on the webpage, you will need to have the following before creating your repository:
 
